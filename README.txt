@@ -36,3 +36,21 @@ $ gulp serve
 
 //github.com/victuelles 
 // 
+
+
+//create back-end folder, same level as front-end
+
+cd back-end
+npm init
+(accept defaults)
+
+//save express in dependency list on package.json
+
+npm install express --save 
+
+//create server.js
+
+//add middleware 
+ npm install body-parser --save
+
+//install chrome postman
