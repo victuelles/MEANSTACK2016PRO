@@ -1,3 +1,11 @@
+//Message Board App using MEAN Stack
+
+//Install Mongodb
+$ brew update
+$ brew install mongodb --with-openssl
+
+//Yeoman
+$ sudo npm install -g yo
 
 //install gulp -task runner
 // bower front end package manager
