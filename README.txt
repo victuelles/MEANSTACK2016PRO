@@ -11,6 +11,10 @@ $ sudo mkdir -p /data/db
 $ sudo mongod 
 
 //use RoboMongo or mongo cli to access db and collections
+$mongo
+//switch to test db
+$use test
+
 
 
 //Yeoman
@@ -67,3 +71,22 @@ npm install express --save
 //body type raw
 //
 //{ "test":"works"}
+
+
+//install MongoDB
+cd back-end/
+//no --save since we are going to use mongoose later
+$npm install mongodb
+//rerun $node server
+//open mongo shell
+$mongo
+> use test
+switched to db test
+> db.messages.find()
+{ "_id" : ObjectId("579d03bd92655d07f8c545f2"), "msg" : "Test" }
+> 
+
+
+
+
+
