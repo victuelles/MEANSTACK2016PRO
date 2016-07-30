@@ -4,6 +4,15 @@
 $ brew update
 $ brew install mongodb --with-openssl
 
+
+//initialize database location, create a folder for db
+$ sudo mkdir -p /data/db
+//start the mongod instance
+$ sudo mongod 
+
+//use RoboMongo or mongo cli to access db and collections
+
+
 //Yeoman
 $ sudo npm install -g yo
 
@@ -54,3 +63,7 @@ npm install express --save
  npm install body-parser --save
 
 //install chrome postman
+//http://localhost:5000/api/message (POST)
+//body type raw
+//
+//{ "test":"works"}
