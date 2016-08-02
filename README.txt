@@ -89,6 +89,8 @@ switched to db test
 
 //push to Heroku server
 //signup for heroku
+//create an app
+// Ex: "wrsmart"
 //Install heroku toolbelt
 //Open Terminal
 //
@@ -96,10 +98,22 @@ $ heroku login
 <email>
 <pwd>
 
+//https://dashboard.heroku.com/apps/wrsmart/deploy/heroku-git
+$ cd ~/Desktop/MEANSTACK2016PRO/
+//use app name "wrsmart"
+$ heroku git:remote -a wrsmart
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
 
 
 
+git clone https://github.com/heroku/node-js-getting-started.git
+$ cd node-js-getting-started
+heroku create
+git push heroku master
 
-
+//check deployed site  at
+http://agile-meadow-27883.herokuapp.com/
 
 
