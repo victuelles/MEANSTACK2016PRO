@@ -87,6 +87,19 @@ switched to db test
 > 
 
 
+//push to Heroku server
+//signup for heroku
+//Install heroku toolbelt
+//Open Terminal
+//
+$ heroku login
+<email>
+<pwd>
+
+
+
+
+
 
 
 
